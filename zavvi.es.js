@@ -1,4 +1,6 @@
-if ( (document.location.pathname.indexOf('mega-lunes') != -1 && document.location.pathname.indexOf('videojuegos') != -1) || document.location.pathname.indexOf('bajada-de-precio') != -1 ) {
+if ( (document.location.pathname.indexOf('mega-lunes') != -1 && document.location.pathname.indexOf('videojuegos') != -1) 
+|| document.location.pathname.indexOf('bajada-de-precio') != -1 
+|| (document.location.pathname.indexOf('liquidacion') != -1 && document.location.pathname.indexOf('videojuegos') != -1) ) {
 	$('.item-games-platforms-ps3').hide();
 	$('.item-games-games-accessories').hide();
 	$('.item-games-platforms-pc').hide();
